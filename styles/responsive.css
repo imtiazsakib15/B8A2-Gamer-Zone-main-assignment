@@ -12,7 +12,7 @@
   h4 {
     font-size: 2.1rem;
   }
-  .navbar {
+  #navbar {
     padding: 3.2rem 2%;
   }
   .banner-content {
@@ -37,13 +37,13 @@
   h4 {
     font-size: 2rem;
   }
-  .navbar {
+  #navbar {
     flex-direction: column;
     gap: 3rem;
     box-shadow: none;
   }
 
-  .banner {
+  #banner {
     flex-direction: column-reverse;
     gap: 1rem;
     margin-top: 2rem;
@@ -75,7 +75,7 @@
   h4 {
     font-size: 1.1rem;
   }
-  .navbar ul {
+  #navbar ul {
     flex-direction: column;
     gap: 2rem;
   }

@@ -47,14 +47,16 @@ img {
   -webkit-background-clip: text;
 }
 
-/* Header Section */
-header {
+header,
+#online-games {
   max-width: 1440px;
   margin: 0 auto;
 }
 
+/* Header Section */
+
 /* Navbar Section */
-.navbar {
+#navbar {
   padding: 3.2rem 12%;
   display: flex;
   align-items: center;
@@ -66,7 +68,7 @@ header {
   align-items: center;
 }
 
-.navbar ul {
+#navbar ul {
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -86,7 +88,7 @@ header {
 }
 
 /* Banner Section */
-.banner {
+#banner {
   display: flex;
   gap: 5rem;
 }
@@ -121,4 +123,22 @@ header {
 }
 .banner-content p img {
   width: 24px;
+}
+
+/* Online Games */
+#online-games {
+  text-align: center;
+  margin: 9rem auto;
+}
+#online-games p {
+  line-height: 3rem;
+  margin: 1.2rem auto 4rem;
+}
+.online-games-videos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.online-games-videos > div {
+  text-align: left;
 }
