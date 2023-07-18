@@ -149,15 +149,17 @@ header,
 #online-games {
   text-align: center;
   margin: 9rem auto;
+  padding: 0 10%;
 }
 #online-games p {
   line-height: 3rem;
-  margin: 1.2rem auto 4rem;
+  margin: 1.2rem auto;
 }
 .online-games-videos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  margin-top: 3rem;
 }
 .online-games-videos > div {
   text-align: left;

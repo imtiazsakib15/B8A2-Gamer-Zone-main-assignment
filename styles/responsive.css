@@ -63,6 +63,10 @@
   .banner-content {
     padding: 8rem 10rem;
   }
+
+  .online-games-videos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Media Query for <= 576px */
@@ -74,14 +78,15 @@
     font-size: 3.5rem;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
   h3 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
   h4 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
+  
   #navbar ul {
     flex-direction: column;
     gap: 2rem;
@@ -91,5 +96,9 @@
   }
   .banner-content {
     padding: 4rem 5rem;
+  }
+
+  .online-games-videos {
+    grid-template-columns: 1fr;
   }
 }
