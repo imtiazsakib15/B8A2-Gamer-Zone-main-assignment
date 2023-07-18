@@ -63,9 +63,15 @@ img {
 }
 
 header,
-#online-games {
+#online-games,
+#play-instantly {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.section-description {
+  line-height: 3rem;
+  margin: 1.2rem auto;
 }
 
 /* Header Section */
@@ -151,10 +157,6 @@ header,
   margin: 9rem auto;
   padding: 0 10%;
 }
-#online-games p {
-  line-height: 3rem;
-  margin: 1.2rem auto;
-}
 .online-games-videos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -163,4 +165,35 @@ header,
 }
 .online-games-videos > div {
   text-align: left;
+}
+
+/* Play Instantly */
+#play-instantly {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  padding: 0 10%;
+}
+.play-instantly-info,
+.play-instantly-img {
+  width: 50%;
+}
+.play-instantly-info {
+  text-align: right;
+  padding: 0 10%;
+}
+.play-instantly-info h2 {
+  line-height: 5rem;
+}
+.play-instantly-img {
+  position: relative;
+}
+.sub-img {
+  position: absolute;
+  left: -20%;
+  top: 55%;
+  width: 50%;
+}
+.sub-img img {
+  width: 50%;
 }
