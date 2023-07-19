@@ -21,6 +21,10 @@
   .banner-img {
     padding-right: 8%;
   }
+
+  .play-instantly-info {
+    padding: 0 7%;
+  }
 }
 
 /* Media Query for <= 768px */
@@ -67,6 +71,13 @@
   .online-games-videos {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .play-instantly-info {
+    padding: 0 3% 0 0;
+  }
+  .play-instantly-info h2 {
+    line-height: 3rem;
+  }
 }
 
 /* Media Query for <= 576px */
@@ -100,5 +111,16 @@
 
   .online-games-videos {
     grid-template-columns: 1fr;
+  }
+
+  #play-instantly {
+    flex-direction: column;
+    gap: 8%;
+    padding: 0 10%;
+  }
+  .play-instantly-info,
+  .play-instantly-img {
+    width: 80%;
+    text-align: center;
   }
 }

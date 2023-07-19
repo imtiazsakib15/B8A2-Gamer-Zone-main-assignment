@@ -172,7 +172,7 @@ header,
   display: flex;
   align-items: center;
   gap: 8%;
-  padding: 0 10%;
+  padding: 0 10% 10rem;
 }
 .play-instantly-info,
 .play-instantly-img {
