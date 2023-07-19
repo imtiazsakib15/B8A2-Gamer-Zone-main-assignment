@@ -25,6 +25,21 @@
   .play-instantly-info {
     padding: 0 7%;
   }
+
+  .all-games {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .game-1,
+  .game-2,
+  .game-3,
+  .game-4,
+  .game-5,
+  .game-6,
+  .game-7,
+  .game-8,
+  .game-9 {
+    grid-area: auto;
+  }
 }
 
 /* Media Query for <= 768px */
@@ -40,6 +55,9 @@
   }
   h4 {
     font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.4;
   }
   .banner-btn {
     gap: 1rem;
@@ -78,6 +96,16 @@
   .play-instantly-info h2 {
     line-height: 3rem;
   }
+
+  .all-games {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 7rem 6%;
+    gap: 1.5rem;
+  }
+  .single-game img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* Media Query for <= 576px */
@@ -96,6 +124,9 @@
   }
   h4 {
     font-size: 1.6rem;
+  }
+  h5 {
+    font-size: 1.4rem;
   }
 
   #navbar ul {
@@ -122,5 +153,22 @@
   .play-instantly-img {
     width: 80%;
     text-align: center;
+  }
+
+  .all-games {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 3%;
+    margin-top: 6rem;
+    gap: 1rem;
+  }
+  .single-game {
+    gap: 0.5rem;
+    padding: 0.6rem;
+    background: #fff;
+    border-radius: 50px;
+  }
+  .single-game img {
+    width: 35px;
+    height: 35px;
   }
 }
