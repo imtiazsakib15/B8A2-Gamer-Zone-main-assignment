@@ -300,9 +300,11 @@ header,
 }
 .single-game:hover {
   border: 1px solid #ff42a5;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
-
+.single-game:hover h5 {
+  color: #ff42a5;
+}
 .single-game img {
   width: 45px;
   height: 45px;
