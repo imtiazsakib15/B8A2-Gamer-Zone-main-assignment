@@ -40,6 +40,10 @@
   .game-9 {
     grid-area: auto;
   }
+
+  .footer-links {
+    flex-direction: column;
+  }
 }
 
 /* Media Query for <= 768px */
@@ -57,7 +61,7 @@
     font-size: 2rem;
   }
   h5 {
-    font-size: 1.4;
+    font-size: 1.4rem;
   }
   .banner-btn {
     gap: 1rem;
@@ -126,7 +130,7 @@
     font-size: 1.6rem;
   }
   h5 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   #navbar ul {

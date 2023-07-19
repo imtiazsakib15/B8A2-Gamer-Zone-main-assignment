@@ -76,7 +76,8 @@ img {
 header,
 #online-games,
 #play-instantly,
-.games {
+.games,
+#footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -99,8 +100,11 @@ header,
 .logo-container {
   display: flex;
   align-items: center;
+  gap: 1.5rem;
 }
-
+.logo-container img {
+  width: 87px;
+}
 #navbar ul {
   display: flex;
   align-items: center;
@@ -258,4 +262,40 @@ header,
 .single-game img {
   width: 45px;
   height: 45px;
+}
+/* Footer Section */
+footer {
+  background: #0b0223;
+}
+#footer {
+  text-align: center;
+  padding: 10rem 2rem 2rem;
+}
+#footer .logo-container {
+  width: max-content;
+  margin: 0 auto 5rem;
+}
+#footer h3 {
+  color: #fff;
+}
+.footer-links,
+#footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+#footer ul li a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+.footer-icon {
+  font-size: 3rem;
+}
+.footer-bottom {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 1.4rem;
+}
+#footer > div {
+  margin-bottom: 5rem;
 }
