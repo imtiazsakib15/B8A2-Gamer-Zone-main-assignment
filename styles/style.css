@@ -76,7 +76,7 @@ img {
 header,
 #online-games,
 #play-instantly,
-.games,
+.games-container,
 #footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -217,6 +217,9 @@ header,
 .games-section {
   background: rgba(255, 66, 165, 0.05);
 }
+.games-container {
+  /* padding: 10rem 10%; */
+}
 .all-games {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -257,6 +260,12 @@ header,
   padding: 0.8rem;
   background: #fff;
   border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.single-game:hover {
+  border: 1px solid #ff42a5;
+  transform: scale(1.05);
 }
 
 .single-game img {
